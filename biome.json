@@ -1,0 +1,44 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.5.0/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "error",
+        "noVoid": "error",
+        "useSimplifiedLogicExpression": "error"
+      },
+      "correctness": {
+        "noNewSymbol": "error",
+        "noUndeclaredVariables": "error",
+        "noUnusedVariables": "error",
+        "useHookAtTopLevel": "error"
+      },
+      "style": {
+        "noDefaultExport": "error",
+        "noImplicitBoolean": "error",
+        "noNamespace": "error",
+        "noNegationElse": "error",
+        "noParameterAssign": "error",
+        "noRestrictedGlobals": "error",
+        "noShoutyConstants": "error",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useFragmentSyntax": "error",
+        "useNamingConvention": "error",
+        "useShorthandArrayType": "error",
+        "useShorthandAssign": "error",
+        "useSingleCaseStatement": "error"
+      },
+      "suspicious": {
+        "noApproximativeNumericConstant": "error",
+        "noConsoleLog": "error",
+        "noMisrefactoredShorthandAssign": "error"
+      }
+    }
+  }
+}
